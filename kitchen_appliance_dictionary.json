@@ -1,0 +1,81 @@
+{
+    "device": {
+        "oven": {
+            "name": "oven",
+            "wordlist": [
+                "oven",
+                "bake",
+                "ovens",
+                "baking",
+                "grill",
+                "convection",
+                "baked",
+                "reheat",
+                "preheat",
+                "grilling",
+                "furnace"
+            ],
+            "subclass": [
+                {
+                    "name": "rotisserie",
+                    "wordlist": [
+                        "rotisserie",
+                        "roasting",
+                        "roast"
+                    ]
+                },
+                {
+                    "name": "mircowave oven",
+                    "wordlist": [
+                        "microwave",
+                        "microwaves"
+                    ]
+                },
+                {
+                    "name": "dutch oven",
+                    "wordlist": [
+                        "dutch oven"
+                    ]
+                },
+                {
+                    "name": "tandoor",
+                    "wordlist": [
+                        "tandoor"
+                    ]
+                },
+                {
+                    "name": "toaster oven",
+                    "wordlist": [
+                        "toaster oven"
+                    ]
+                }
+            ]
+        },
+        "fridge": {
+            "name": "fridge",
+            "subclass": [
+                {
+                    "name": "deep freezer",
+                    "wordlist": [
+                        "freeze",
+                        "frozen",
+                        "cooling",
+                        "freezer"
+                    ]
+                }
+            ],
+            "wordlist": [
+                "refrigerator",
+                "fridges",
+                "fridge",
+                "refrigerators",
+                "refrigeration",
+                "refrigerated",
+                "chilled",
+                "coolers",
+                "refrigerate",
+                "chiller"
+            ]
+        }
+    }
+}
